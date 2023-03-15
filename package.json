@@ -1,0 +1,31 @@
+{
+  "name": "praticas",
+  "version": "1.0.0",
+  "description": "Atividade prática de testes unitarios usando o jest e nodejs m3w5",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanessaluciaano/NodeJS.git"
+  },
+  "author": "VLO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanessaluciaano/NodeJS/issues"
+  },
+  "homepage": "https://github.com/vanessaluciaano/NodeJS#readme",
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "jest-html-reporter": "^3.7.0"
+  },
+  "jest": {
+    "reporters": 
+    [ "default", 
+    [ "./node_modules/jest-html-reporter", { "pageTitle": "Test Reporter" }]]
+  }
+}
