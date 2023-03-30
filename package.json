@@ -24,8 +24,14 @@
     "jest-html-reporter": "^3.7.0"
   },
   "jest": {
-    "reporters": 
-    [ "default", 
-    [ "./node_modules/jest-html-reporter", { "pageTitle": "Test Reporter" }]]
+    "reporters": [
+      "default",
+      [
+        "./node_modules/jest-html-reporter",
+        {
+          "pageTitle": "Test Reporter"
+        }
+      ]
+    ]
   }
 }
